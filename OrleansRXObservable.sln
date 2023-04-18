@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansRXObservable", "OrleansRXObservable\OrleansRXObservable.csproj", "{03E7E94C-FFEB-42F4-8E37-9982954123F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiloHost", "SiloHost\SiloHost.csproj", "{2146FC96-F517-4E7F-9172-C3098B504D11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{4B1AB261-4126-43E7-844C-07C5C8B7B009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "States", "States\States.csproj", "{C41404E2-0CD6-42DE-B55D-3B276707FDF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "Grains\Grains.csproj", "{7B92387F-01A6-4818-9EA9-5EB1B22EFA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansService", "OrleansService\OrleansService.csproj", "{5FACEB1D-FF16-40E7-88FE-C3E6C4EF406A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientOrleans", "ClientOrleans\ClientOrleans.csproj", "{7858F688-FCB4-41AD-85D6-73A5A2A91A98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E7E94C-FFEB-42F4-8E37-9982954123F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E7E94C-FFEB-42F4-8E37-9982954123F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E7E94C-FFEB-42F4-8E37-9982954123F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E7E94C-FFEB-42F4-8E37-9982954123F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2146FC96-F517-4E7F-9172-C3098B504D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2146FC96-F517-4E7F-9172-C3098B504D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2146FC96-F517-4E7F-9172-C3098B504D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2146FC96-F517-4E7F-9172-C3098B504D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1AB261-4126-43E7-844C-07C5C8B7B009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1AB261-4126-43E7-844C-07C5C8B7B009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1AB261-4126-43E7-844C-07C5C8B7B009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1AB261-4126-43E7-844C-07C5C8B7B009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41404E2-0CD6-42DE-B55D-3B276707FDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41404E2-0CD6-42DE-B55D-3B276707FDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41404E2-0CD6-42DE-B55D-3B276707FDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41404E2-0CD6-42DE-B55D-3B276707FDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B92387F-01A6-4818-9EA9-5EB1B22EFA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B92387F-01A6-4818-9EA9-5EB1B22EFA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B92387F-01A6-4818-9EA9-5EB1B22EFA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B92387F-01A6-4818-9EA9-5EB1B22EFA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FACEB1D-FF16-40E7-88FE-C3E6C4EF406A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FACEB1D-FF16-40E7-88FE-C3E6C4EF406A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FACEB1D-FF16-40E7-88FE-C3E6C4EF406A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FACEB1D-FF16-40E7-88FE-C3E6C4EF406A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7858F688-FCB4-41AD-85D6-73A5A2A91A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7858F688-FCB4-41AD-85D6-73A5A2A91A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7858F688-FCB4-41AD-85D6-73A5A2A91A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7858F688-FCB4-41AD-85D6-73A5A2A91A98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67B36925-0741-47CB-822D-3062BA7132A4}
+	EndGlobalSection
+EndGlobal
